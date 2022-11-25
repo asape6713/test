@@ -1,0 +1,1 @@
+Ett tips för att göra en tom html-fil i VS Code snabbt är att skriva html:5 och sen trycka tab, så fylls allt i med head, body osv.

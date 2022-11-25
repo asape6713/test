@@ -1,0 +1,10 @@
+CREATE TABLE phonelist (
+name VARCHAR ( 50 ) UNIQUE NOT NULL,
+phone VARCHAR(50) NOT NULL UNIQUE
+);
+
+INSERT INTO phonelist (name, phone)
+VALUES ('Arne Olsson', '013-121213'),('Berith', '012-121212'),('Urban', '0435-4355438') ;
+
+select *
+from phonelist;
